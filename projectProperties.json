@@ -270,7 +270,7 @@
     },
     "createdVizVersion": "9.2.3",
     "createdgaversion": "9.2.3",
-    "currentgaversion": "10.0.50",
+    "currentgaversion": "9.5.365",
     "deeplinkkey": "None",
     "defaultlocalekey": "",
     "defaulttheme": "classicTheme",
@@ -477,7 +477,7 @@
             "version": "1.0"
         }
     },
-    "konyVizVersion": "10.0.50",
+    "konyVizVersion": "9.5.365",
     "lastmodifiedtime": "1624417997272",
     "live_act_attributes": "",
     "live_act_configurations": "",
