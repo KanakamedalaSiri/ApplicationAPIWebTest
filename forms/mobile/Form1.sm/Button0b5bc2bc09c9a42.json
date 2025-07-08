@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "75dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "55dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2180bdeedc94845a8394c080a56c317",
+    "_text_": "UnRegister For Idle timeout",
+    "_top_": {
+        "type": "string",
+        "value": "435dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s5f8e3d94547404793cf3181c10bb0d2",
+    "id": "Button0b5bc2bc09c9a42",
+    "ide_onClick": "AS_Button_f2d5bf7c2c1d4defb4475a0c3861aced",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a32c28eb7f654f8eba42d096399eb674",
+    "name": "kony.ui.Button",
+    "parent": "Form1",
+    "pf": "Form1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

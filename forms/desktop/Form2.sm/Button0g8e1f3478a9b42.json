@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "486dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2180bdeedc94845a8394c080a56c317",
+    "_text_": "Get Previous Form",
+    "_top_": {
+        "type": "string",
+        "value": "280dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s5f8e3d94547404793cf3181c10bb0d2",
+    "id": "Button0g8e1f3478a9b42",
+    "ide_onClick": "AS_Button_e80ea5e6152f4630add84db571e96158",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bab12712d9c04933ae8253ab2623b145",
+    "name": "kony.ui.Button",
+    "parent": "Form2",
+    "pf": "Form2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

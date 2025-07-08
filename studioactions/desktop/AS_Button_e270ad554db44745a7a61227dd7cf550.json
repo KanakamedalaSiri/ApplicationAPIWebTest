@@ -1,0 +1,23 @@
+{
+    "AS_Button_e270ad554db44745a7a61227dd7cf550": {
+        "id": "AS_Button_e270ad554db44745a7a61227dd7cf550",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "c06a285678f14437852eb4172af298b5",
+            "name": "Form1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_b02e60b7982c4193a3d0d4a667aafe38",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "                   \nkony.application.isImageTurnedOff(imageCb);\n\n\nfunction imageCb(param) {\n    if (param === true) {\n        Form1.lbl1.text = \"Image settings in web browser is disabled\";\n    } else {\n        Form1.lbl1.text = \"Image settings in web browser is enabled\";\n    }\n\n    Form1.forceLayout();\n\n}",
+            "parentId": null
+        }]
+    }
+}

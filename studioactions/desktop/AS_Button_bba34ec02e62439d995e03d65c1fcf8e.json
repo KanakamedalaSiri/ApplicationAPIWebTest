@@ -1,0 +1,23 @@
+{
+    "AS_Button_bba34ec02e62439d995e03d65c1fcf8e": {
+        "id": "AS_Button_bba34ec02e62439d995e03d65c1fcf8e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "c06a285678f14437852eb4172af298b5",
+            "name": "Form1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_f73366b5613642949f2c4be88630bab9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "    \nkony.application.isPopupBlocked(popupCb);\n\nfunction popupCb(param) {\n    if (param === true) {\n        Form1.lbl1.text = \"Pop-up blocker is enabled. Please do not allow pop-ups from this website.\";\n    } else {\n        Form1.lbl1.text = \"Popup blocker is turned off.\";\n    }\n\n    Form1.forceLayout();\n}",
+            "parentId": null
+        }]
+    }
+}

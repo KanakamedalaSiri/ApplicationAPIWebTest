@@ -1,0 +1,23 @@
+{
+    "AS_Button_cdad346855274926954ef86c7fe516da": {
+        "id": "AS_Button_cdad346855274926954ef86c7fe516da",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "c06a285678f14437852eb4172af298b5",
+            "name": "Form1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_fe36625fd4fa469db9be7a687b3c19ae",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.unregisterForIdleTimeout();\n//alert(\"idle timeout is unregistered\")\nForm1.LabelOutput.text = \"idle timeout is unregistered\";",
+            "parentId": null
+        }]
+    }
+}

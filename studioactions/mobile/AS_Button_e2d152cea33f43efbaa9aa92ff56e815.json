@@ -1,0 +1,29 @@
+{
+    "AS_Button_e2d152cea33f43efbaa9aa92ff56e815": {
+        "id": "AS_Button_e2d152cea33f43efbaa9aa92ff56e815",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "b6b5b09db1a44b9586af5a8ad48d8ad1",
+            "name": "Form2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_j58ef19c220741b8b59b598bb6257aa0",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Form1",
+            "formKUID": "c06a285678f14437852eb4172af298b5",
+            "projectName": "ApplicationAPI",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

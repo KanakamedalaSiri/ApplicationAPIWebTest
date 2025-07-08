@@ -1,0 +1,42 @@
+{
+    "models": {
+        "desktop": {
+            "1366": {
+                "class": "GraphLinksModel",
+                "linkDataArray": [],
+                "nodeDataArray": [
+                    {
+                        "formKUID": "d5247a8b3fcd4fc8b7a6ab92bf2c047d",
+                        "formName": "Form1",
+                        "isStartupForm": true,
+                        "key": "d5247a8b3fcd4fc8b7a6ab92bf2c047d",
+                        "loc": "8 24.845263671875003",
+                        "thumbnailURL": null
+                    }
+                ]
+            }
+        },
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [],
+            "nodeDataArray": [
+                {
+                    "formKUID": "ccb5497f1e78452caa4331cc522b606c",
+                    "formName": "Form1",
+                    "isStartupForm": true,
+                    "key": "ccb5497f1e78452caa4331cc522b606c",
+                    "loc": "8 24.845263671875003",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "b6b5b09db1a44b9586af5a8ad48d8ad1",
+                    "formName": "Form2",
+                    "isStartupForm": false,
+                    "key": "b6b5b09db1a44b9586af5a8ad48d8ad1",
+                    "loc": "8 624.845263671875",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}

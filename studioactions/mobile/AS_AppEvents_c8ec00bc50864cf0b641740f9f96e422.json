@@ -1,0 +1,17 @@
+{
+    "AS_AppEvents_c8ec00bc50864cf0b641740f9f96e422": {
+        "id": "AS_AppEvents_c8ec00bc50864cf0b641740f9f96e422",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_e69ae0e182dc4847a32926b2d88385d7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"postappinit\");",
+            "parentId": null
+        }]
+    }
+}

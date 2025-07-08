@@ -1,0 +1,32 @@
+{
+    "groupName": "Test Suites",
+    "testSuiteName": "testSuiteSPA",
+    "testCaseInfo": [
+        {
+            "testcaseName": "testCaseOpenURL.js",
+            "appName": "ApplicationAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseRegisterIdleTimeout.js",
+            "appName": "ApplicationAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseUnregisterIdleTimeout.js",
+            "appName": "ApplicationAPI",
+            "selectedDataset": null
+        },
+        {
+            "testcaseName": "testCaseNavigateFormCurrentPrevious.js",
+            "appName": "ApplicationAPI",
+            "selectedDataset": null
+        }
+    ],
+    "usedBy": {
+        "ApplicationAPI": [
+            "testPlanSPA.js"
+        ]
+    },
+    "appName": "ApplicationAPI"
+}

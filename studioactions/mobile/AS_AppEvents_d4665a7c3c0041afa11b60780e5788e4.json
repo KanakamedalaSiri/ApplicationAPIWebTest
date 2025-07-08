@@ -1,0 +1,17 @@
+{
+    "AS_AppEvents_d4665a7c3c0041afa11b60780e5788e4": {
+        "id": "AS_AppEvents_d4665a7c3c0041afa11b60780e5788e4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ca3ca529b7384751b985ce342f671227",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"appserviceinit\")",
+            "parentId": null
+        }]
+    }
+}

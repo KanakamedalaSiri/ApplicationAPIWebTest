@@ -1,0 +1,23 @@
+{
+    "AS_Button_hdea7c730666440490c08c31686fc2c5": {
+        "id": "AS_Button_hdea7c730666440490c08c31686fc2c5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "ccb5497f1e78452caa4331cc522b606c",
+            "name": "Form1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_de812d6a501c42d5bd0a2f54b60e645b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "function test() {\n    Form1.LabelOutput.text = \"Set idle timeout of 0.30 min successful\";\n   }\n//alert(\"idle timeout set for 1 min.wait for\")\nForm1.LabelOutput.text = \"idle timeout set for 0.30 min.wait for\";\nkony.application.registerForIdleTimeout(0.30, test);\n",
+            "callbackType": null
+        }]
+    }
+}

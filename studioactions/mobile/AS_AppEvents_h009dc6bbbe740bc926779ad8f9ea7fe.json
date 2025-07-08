@@ -1,0 +1,22 @@
+{
+    "AS_AppEvents_h009dc6bbbe740bc926779ad8f9ea7fe": {
+        "id": "AS_AppEvents_h009dc6bbbe740bc926779ad8f9ea7fe",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b2f25c14cc064cfb8280a3edcf733edc",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "appCallback",
+            "display": "appCallback",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}
